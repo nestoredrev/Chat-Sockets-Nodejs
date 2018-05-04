@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi aplicacion con Sockets</title>
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>
+<body>
+	<h1>My App</h1>
+	<div id="mensajes"></div>
+	<br/>
+	<form onsubmit="return addMessage(this)">
+		<input type="text" id="username" placeholder="Usuario">
+		<input type="text" id="texto" placeholder="Tu mensaje">
+		<input type="submit" value="Enviar!">
+	</form>
+</body>
+</html>
